@@ -1,8 +1,25 @@
 aid: trendy-entertainment
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/trendy-entertainment.png
 name: Trendy Entertainment
-description: 'Trendy Entertainment is a company surfaced as a portfolio company of insight-partners and
-  added to the API Evangelist network as a stub for enrichment. Sector: gaming. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Trendy Entertainment was a Gainesville, Florida video game studio best known for the Dungeon
+  Defenders tower-defense action-RPG franchise. Insight Venture Partners acquired the studio in 2012 for
+  ~$18.2M and exited in 2019 when founder Augi Lye led an employee buyback and rebranded the company as
+  Chromatic Games (chromatic.games). The only developer-facing surface the studio ever shipped is the
+  Dungeon Defenders Development Kit — an Unreal Engine 3 game-mod SDK distributed as free Steam DLC — not
+  a public web/HTTP API. Enrichment pass found no OpenAPI, REST API, developer portal, or client SDK
+  registries: this is a games company with no programmable API surface, so most scored artifact types are
+  N/A rather than missing.'
 url: https://raw.githubusercontent.com/api-evangelist/trendy-entertainment/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +29,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Gaming
+- Video Games
+- Game Studio
+- Tower Defense
+- Dungeon Defenders
+- Entertainment
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +45,15 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/trendy-entertainment-domain-security.yml
 - type: Website
   url: http://trendyent.com/
+- type: Website
+  name: Chromatic Games (successor)
+  url: https://chromatic.games/
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
