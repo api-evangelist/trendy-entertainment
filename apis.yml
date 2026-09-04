@@ -21,6 +21,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'http://trendyent.com/', status: 301, note: 'declared website redirects to https://chromatic.games/ — a different registrable domain (trendyent.com -> chromatic.games), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/trendy-entertainment.png
 name: Trendy Entertainment
 description: 'Trendy Entertainment was a Gainesville, Florida video game studio best known for the Dungeon
